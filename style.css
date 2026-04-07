@@ -3,3 +3,55 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 136, 124);
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    width: 320px;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+    width:200px;
+    height: 120px;
+}
+#classificacao {
+    width: 200px;
+    height: 45px;
+}
+
+#categoria {
+    border-radius: 12px; 
+    width: fit-content; 
+    padding: 4px 20px;
+    
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 146, 108);
+    color: white;
+    font-size: 14px;
+}
